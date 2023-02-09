@@ -1,27 +1,44 @@
 body{
+    display: inline-block;
     height:auto;
     width: auto;
     background-color:hsl(0,100%,74%);
+    background-image: url('imagens/bg-intro-desktop.png');
 }
 
 h1 {
+    display: inline-block;
+    position: relative;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    text-align: left;
+    height: 10px;
+    width: 250px;
+}
 
+h2{
+    position: relative;
+    text-align: left;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    left: 815px;
+    margin: 20px;
 }
 
 p{
+    display: inline-block;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    text-align: left;
+    margin-top: 250px;
 }
 
 
 
 h2{
+
+    display: inline-block;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -30,28 +47,32 @@ h2{
 
 }
 
-form{
+fieldset{
+    position: relative;
+    background-color: white;
+    display:inline-block;
+    height: 570px;
+    width: 470px;
+    border-radius: 5%;
+    text-align: center;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    text-align: right;
+    left: 800px;
+
 }
 
 input{
     position: relative;
-    display: block;
-    text-align: right;
-
+    width: 70%;
+    text-align: left;
+    margin-block: 30px 10px;
 }
 
 a{
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-family: 'Poppins', sans-serif;
-    text-align: right;
+    text-align: justify;
 }
 
-img{
-    background-position-x: center;
-    background-position-y: center;
-}

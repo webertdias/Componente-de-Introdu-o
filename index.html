@@ -12,7 +12,6 @@
 
 <body>
 
-
     <h1>Aprenda a codificar junto com outros DEVs</h1>
 
         <p>Ver como desenvolvedores experientes resolvem problemas em tempo real assistindo a tutoriais com scripts é ótimo,
@@ -22,25 +21,25 @@
 
     <div>    
         <form autocomplete="off">
-            <label for="Nome">Nome</label>
-            <input type="text" name="Nome" id="Nome" required>
-
-            <label for="SobreNome">SobreNome</label>
-            <input type="text" name="SobreNome" id="SobreNome" required>
-
-            <label for="Email">E-mail</label>
-            <input type="email" name="email" id="email" required placeholder="nome@dominio.com">
-
-            <label for="Senha">Senha</label>
-            <input type="password" name="password" id="Senha" required>
-
-            <a><input type="submit" value="Reivindique seu teste gratuito"></a>
-
-            <a>Ao clicar no botão, você concorda com nossos Termos e Serviços</a>
-
-
-            <p><img class="desktop" src="bg-intro-desktop.png" aling="middle"></p>
-
+            <fieldset>
+                <div>
+                    <input type="text" name="Nome" id="Nome" size="50" required placeholder="Nome">
+                </div>
+                <div>    
+                    <input type="text" name="SobreNome" id="SobreNome" size="50" required placeholder="SobreNome">
+                </div> 
+                <div>   
+                    <input type="email" name="email" id="email" size="50" required placeholder="nome@dominio.com">
+                </div>
+                <div>
+                    <input type="password" name="password" id="Senha" size="50" required placeholder="Senha">
+                </div>
+                <div>          
+                    <a><input type="submit" value="Reivindique seu teste gratuito"></a><br>
+                </div>    
+                    <p>Ao clicar no botão, você concorda com nossos Termos e Serviços</p>
+                </div>    
+            </fieldset>    
         </form>
     </div>
 
